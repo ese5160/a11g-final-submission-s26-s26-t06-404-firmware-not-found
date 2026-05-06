@@ -1,25 +1,46 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y5lYn2wb)
 
 # a11g-final-submission
 
-**Team Number:**
+**Team Number: 06**
 
-**Team Name:**
+**Team Name: 404 Firmware Not Found**
 
-| Team Member Name | Email Address | GitHub Username |
-| ---------------- | ------------- | --------------- |
-| [Name 1]         | [Email 1]     | [Username 1]    |
-| [Name 2]         | [Email 2]     | [Username 2]    |
-
-**GitHub Repository URL:**
+| Team Member Name  | Email Address          | GitHub Username |
+| ----------------- | ---------------------- | --------------- |
+| Praise Ndlovu     | praisen@seas.upenn.edu | pbn107          |
+| Anjali Jathavedam | apjath@seas.upenn.edu  | apjath          |
 
 ## 1. Video Presentation
 
+Link
+
 ## 2. Project Summary
+
+The DSPiano is a compact, multi-functional piano that allows users to play notes in a four octave range, displays the waveform of each note, and record their tune if desired. Users are able to play in free-play mode, or learn how to play sheet music.
 
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
+
+![1777933352674](image/README/1777933352674.png)
+
+![1777933369984](image/README/1777933369984.png)
+
+![1777933293641](image/README/1777933293641.png)
+
+![1777933316114](image/README/1777933316114.png)
+
+![1777933513532](image/README/1777933513532.jpg)
+
+![1777933533687](image/README/1777933533687.png)
+
+![1777933848196](image/README/1777933848196.png)
+
+![1777933856384](image/README/1777933856384.png)
+
+![1777933716868](image/README/1777933716868.png)
+
+![1777933686708](image/README/1777933686708.png)
 
 ## 5. Codebase
 
