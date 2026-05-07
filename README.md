@@ -17,13 +17,13 @@ Link: [https://youtu.be/fIFFB9PDKGI](https://youtu.be/fIFFB9PDKGI)
 
 **Description:**
 
-2 sentence summary:
+*2 sentence summary:*
 
 The DSPiano is a compact, multi-functional piano that allows users to play notes in a four octave range,
  display the waveform of each note, and record their tune if desired. Users are able to play in free-play mode,
  or learn how to play sheet music in note-play mode.
 
-Inspiration:
+*Inspiration:*
 
 As avid music-enjoyers, we were inspired to build a product that is easy to use and
 allows for experimentation with music. We have both wanted to learn the piano and thought creating
@@ -32,7 +32,7 @@ a device that facilitates the learning process would be a great opportunity.
 We additionally appreciate that the device is simple enough to use for a very wide range of ages,
 yet has functionality that will keep it interesting despite age of the user.
 
-Internet augmentation:
+*Internet augmentation:*
 
 We used Internet connection to allow users to play music through their computer for added portability
 of the product. Using the Internet also allowed us to create a robust user interface that can be easily
@@ -123,45 +123,43 @@ Final PCBA on Altium 365: [https://upenn-eselabs.365.altium.com/designs/51844DEE
 
 ## 4. Project Photos & Screenshots
 
-Final prototype:
+**Final prototype:**
 
 ![1777933352674](image/README/1777933352674.png)
 
 ![1777933369984](image/README/1777933369984.png)
 
-PCBA, top:
+**PCBA, top:**
 
 ![1777933293641](image/README/1777933293641.png)
 
-PCBA, bottom:
+**PCBA, bottom:**
 
 ![1777933316114](image/README/1777933316114.png)
 
-Thermal camera images of PCBA under load:
+**Thermal camera images of PCBA under load:**
 
 ![1777933513532](image/README/1777933513532.jpg)
 
 ![1777933533687](image/README/1777933533687.png)
 
-2D PCBA Layout:
+**2D PCBA Layout:**
 
 ![1777933848196](image/README/1777933848196.png)
 
-3D PCBA Layout:
+**3D PCBA Layout:**
 
 ![1777933856384](image/README/1777933856384.png)
 
-Node-RED Dashboard:
+**Node-RED Dashboard:**
 
 ![1777933716868](image/README/1777933716868.png)
 
-Node-RED Backend:
+**Node-RED Backend:**
 
 ![1777933686708](image/README/1777933686708.png)
 
 ## 5. Codebase
-
-Do *not* commit any of your source code to this repository. Rather, provide links to the other GitHub repository you've already been using with your firmware.
 
 - A link to your final embedded C firmware codebases: [https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/tree/main/source_code](https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/tree/main/source_code)
 - A link to your Node-RED dashboard code: [https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/blob/main/source_code/node_red.json](https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/blob/main/source_code/node_red.json)
