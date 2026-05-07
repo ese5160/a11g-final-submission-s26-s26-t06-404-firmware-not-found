@@ -17,9 +17,13 @@ Link: [https://youtu.be/fIFFB9PDKGI](https://youtu.be/fIFFB9PDKGI)
 
 **Description:**
 
+2 sentence summary:
+
 The DSPiano is a compact, multi-functional piano that allows users to play notes in a four octave range,
  display the waveform of each note, and record their tune if desired. Users are able to play in free-play mode,
  or learn how to play sheet music in note-play mode.
+
+Inspiration:
 
 As avid music-enjoyers, we were inspired to build a product that is easy to use and
 allows for experimentation with music. We have both wanted to learn the piano and thought creating
@@ -27,6 +31,8 @@ a device that facilitates the learning process would be a great opportunity.
 
 We additionally appreciate that the device is simple enough to use for a very wide range of ages,
 yet has functionality that will keep it interesting despite age of the user.
+
+Internet augmentation:
 
 We used Internet connection to allow users to play music through their computer for added portability
 of the product. Using the Internet also allowed us to create a robust user interface that can be easily
@@ -40,7 +46,7 @@ we created a custom PCBA that can be powered via LiPo or USB connection with pow
 
 We had one button per note which would fire an interrupt service routine when pressed and send the number of the button via MQTT to Node-RED. The octave was applied in Node-RED and the pure frequency was played through the computer speakers. We created additional functionality in Node-RED to allow the user to record and play back their tunes. In the product itself, the user was able to navigate through different modes and screens on the LCD via the first few buttons.
 
-**Include your system-level block diagram here.**
+![1778123008580](image/README/1778123008580.png)
 
 **Challenges:**
 
@@ -60,11 +66,8 @@ We decided to prioritize SPI for our
 LCD screen and decided to use a development board for GPIO pins to connect our buttons.
 
 The last challenge we faced was with over the air firmware updates (OTAFU). Despite being able to remotely flash to our board
-in the A08 assignment, we faced difficulty hosting both mqttIn and mqttOut in one WiFi instance. When we kept each process separate,
-we were able to use our intended Internet functionality and OTAFU.
-
-Where did you face difficulties? This could be in firmware, hardware, software, integration, etc.
-How did you overcome these challenges?
+in the A08 assignment, we faced difficulty hosting both mqttIn and mqttOut in one WiFi instance in our final prototype. When we kept each process separate,
+we were able to use our intended Internet functionality and OTAFU. We believe this is because of the difference in protocols with HTTP and HTTPS required by mqttIn and mqttOut, respectively. 
 
 **Prototype Learnings:**
 
@@ -90,9 +93,9 @@ We learned about the entire prototyping process in ESE5160, from ideation to dem
 
 **Project Links:**
 
-Node-RED instance: http://52.159.114.54:1880/
+Node-RED instance: [http://52.159.114.54:1880/](http://52.159.114.54:1880/)
 
-Final PCBA on Altium 365: https://upenn-eselabs.365.altium.com/designs/51844DEE-0BD5-40C2-A679-D60E8B9CA19E
+Final PCBA on Altium 365: [https://upenn-eselabs.365.altium.com/designs/51844DEE-0BD5-40C2-A679-D60E8B9CA19E](https://upenn-eselabs.365.altium.com/designs/51844DEE-0BD5-40C2-A679-D60E8B9CA19E)
 
 ## 3. Hardware & Software Requirements
 
@@ -120,23 +123,39 @@ Final PCBA on Altium 365: https://upenn-eselabs.365.altium.com/designs/51844DEE-
 
 ## 4. Project Photos & Screenshots
 
+Final prototype:
+
 ![1777933352674](image/README/1777933352674.png)
 
 ![1777933369984](image/README/1777933369984.png)
 
+PCBA, top:
+
 ![1777933293641](image/README/1777933293641.png)
 
+PCBA, bottom:
+
 ![1777933316114](image/README/1777933316114.png)
+
+Thermal camera images of PCBA under load:
 
 ![1777933513532](image/README/1777933513532.jpg)
 
 ![1777933533687](image/README/1777933533687.png)
 
+2D PCBA Layout:
+
 ![1777933848196](image/README/1777933848196.png)
+
+3D PCBA Layout:
 
 ![1777933856384](image/README/1777933856384.png)
 
+Node-RED Dashboard:
+
 ![1777933716868](image/README/1777933716868.png)
+
+Node-RED Backend:
 
 ![1777933686708](image/README/1777933686708.png)
 
@@ -145,5 +164,5 @@ Final PCBA on Altium 365: https://upenn-eselabs.365.altium.com/designs/51844DEE-
 Do *not* commit any of your source code to this repository. Rather, provide links to the other GitHub repository you've already been using with your firmware.
 
 - A link to your final embedded C firmware codebases: [https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/tree/main/source_code](https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/tree/main/source_code)
-- A link to your Node-RED dashboard code: LINK
+- A link to your Node-RED dashboard code: [https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/blob/main/source_code/node_red.json](https://github.com/ese5160/final-project-firmware-s26-t06-404-firmware-not-found/blob/main/source_code/node_red.json)
 - Links to any other software required for the functionality of your device: N/A
